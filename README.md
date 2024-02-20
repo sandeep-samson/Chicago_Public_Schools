@@ -27,3 +27,14 @@ A detailed description of the dataset and the original dataset can be obtained f
 https://data.cityofchicago.org/Education/Chicago-Public-Schools-Progress-Report-Cards-2011-/9xs2-f89t
 
 ### 3. Chicago Crime Data
+This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occured in the City of Chicago from 2001 to present, minus the most recent seven days.
+
+A detailed description of the dataset and the original dataset can be obtained from the Chicago Data Portal at:
+
+https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2
+
+## Store the datasets in database tables
+To analyze the data using SQL, it first needs to be loaded into SQLite DB. We will create three tables in as under:
+1. **CENSUS_DATA**
+2. **CHICAGO_PUBLIC_SCHOOLS**
+3. **CHICAGO_CRIME_DATA**
